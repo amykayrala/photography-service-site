@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://amykayrala.github.io/photography-service-site/",
+  "homepage": "https://amykayrala.github.io/photography-service-site/",
   "name": "photography-service-site",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
