@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/photography-service-site/static/css/main.a6855815.css",
-    "main.js": "/photography-service-site/static/js/main.981f5e46.js",
-    "static/media/home-background.jpg": "/photography-service-site/static/media/home-background.052ed22f9244d0ff4088.jpg",
+    "main.css": "/photography-service-site/static/css/main.94018c13.css",
+    "main.js": "/photography-service-site/static/js/main.6b5fff25.js",
+    "static/media/home-background.jpg": "/photography-service-site/static/media/home-background.ef55d8b5e213a37ee91a.jpg",
     "index.html": "/photography-service-site/index.html",
-    "main.a6855815.css.map": "/photography-service-site/static/css/main.a6855815.css.map",
-    "main.981f5e46.js.map": "/photography-service-site/static/js/main.981f5e46.js.map"
+    "main.94018c13.css.map": "/photography-service-site/static/css/main.94018c13.css.map",
+    "main.6b5fff25.js.map": "/photography-service-site/static/js/main.6b5fff25.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6855815.css",
-    "static/js/main.981f5e46.js"
+    "static/css/main.94018c13.css",
+    "static/js/main.6b5fff25.js"
   ]
 }
