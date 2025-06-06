@@ -18,8 +18,7 @@ function Home() {
       <section id="photographers" className='photographers-section'>
         <h2>Our Photographers</h2>
         <p>Meet the talented professionals behind the lens.</p>
-        {/* Add cards later */}
-
+        
             <Container>
             {/* Row 1 */}
             <Row className="mb-4">
