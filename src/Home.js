@@ -8,9 +8,11 @@ function Home() {
   return (
     <div className='home-page'>
       <section className='home-title'>
-        <h1>Natural Moments,</h1>
-        <h1>Beautifully Captured</h1>
-        <Button as={NavLink} to="/booksession" variant="light">Find a Photographer</Button>
+        <div className='home-text'>
+            <h1>Natural Moments,</h1>
+            <h1>Beautifully Captured</h1>
+            <Button as={NavLink} to="/booksession" variant="outline-light">Find a Photographer</Button>
+        </div>
       </section>
 
       <section id="photographers" className='photographers-section'>
