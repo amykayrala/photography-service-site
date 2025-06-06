@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import BookSession from './BookSession';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/book" element={<BookSession />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

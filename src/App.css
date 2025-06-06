@@ -48,6 +48,9 @@
   color: white;
 }
 
+.about-us{
+  background-color: var(--beige);
+}
 .about-us-content{
   padding: 100px;
   margin-top: 130px;
@@ -58,4 +61,8 @@
   padding: 100px;
   margin-top: 130px;
   border-radius: 10px;
+}
+
+.contact-page{
+  background-color: var(--beige);
 }
