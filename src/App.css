@@ -69,9 +69,19 @@
 
 .txt-purple {
   color: #896790; /* or any purple you want */
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 12px;
   text-transform: uppercase; /* optional */
   letter-spacing: 1px; /* optional */
 }
+
+.txt-purple-smaller {
+  color: #896790; /* or any purple you want */
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase; /* optional */
+  letter-spacing: 1px; /* optional */
+}
+

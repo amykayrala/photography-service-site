@@ -1,5 +1,17 @@
-function BookSession() {
-  return <h2>Book a Session Page</h2>;
-}
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
-export default BookSession;
+export default function BookSession() {
+    const [value, onChange] = useState(new Date());
+
+    return (
+        <div>
+            <h1>Calendar - GeeksforGeeks</h1>
+            <Calendar
+                onChange={onChange}
+                value={value}
+            />
+        </div>
+    );
+}
