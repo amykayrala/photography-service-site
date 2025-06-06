@@ -48,21 +48,30 @@
   color: white;
 }
 
-.about-us{
-  background-color: var(--beige);
-}
 .about-us-content{
-  padding: 100px;
+  padding-left: 50px;
+  align-content: center;
   margin-top: 130px;
   border-radius: 10px;
 }
 
 .about-us-pic{
   padding: 100px;
-  margin-top: 130px;
   border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-page{
   background-color: var(--beige);
+  height: 100vh;
+}
+
+.txt-purple {
+  color: #896790; /* or any purple you want */
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase; /* optional */
+  letter-spacing: 1px; /* optional */
 }
