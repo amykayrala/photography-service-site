@@ -1,6 +1,8 @@
 // src/Home.js
 import { Button } from 'react-bootstrap';
 import './App.css';
+import {NavLink} from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -8,13 +10,13 @@ function Home() {
       <div className='home-title'>
         <h1>Natural Moments,</h1>
         <h1>Beautifully Captured</h1>
-        <Button variant='light' href="/book">Find a Photographer</Button>
+        <Button as={NavLink} to="/booksession" variant="light">Find a Photographer</Button>
       </div>
 
       <div id="photographers" className='photographers-section'>
         <h2>Our Photographers</h2>
         <p>Meet the talented professionals behind the lens.</p>
-        {/* Add photos or cards later */}
+        {/* Add cards later */}
       </div>
     </div>
   );

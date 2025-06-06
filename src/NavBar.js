@@ -15,7 +15,7 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/aboutus">About Us</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
             <Nav.Link as={NavLink} to="/">Our Photographers</Nav.Link> {/* fix this link */}
-            <Button as={NavLink} to="/book" variant="outline-dark">Book Now</Button>
+            <Button as={NavLink} to="/booksession" variant="outline-dark">Book Now</Button>
           </Nav>
         </Container>
       </Navbar>
