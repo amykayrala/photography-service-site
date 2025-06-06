@@ -8,6 +8,21 @@
   --beige: #FAF0E6;
 }
 
+.home-page {
+  background-image: url('./home-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+.home-title{
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 350px;
+  padding-top: 250px;
+}
+
 .NavBar {
   background-color: var(--purple1);
   color: white;
@@ -22,37 +37,12 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photographers-section{
+  background-color: var(--purple2);
+  padding: 100px;
+  margin-top: 370px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.about-us-content{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,16 +1,22 @@
-// import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar';
+import Home from './Home';
+import AboutUs from './AboutUs';
+import BookSession from './BookSession';
 
 function App() {
   return (
-    <div className='App'>
-      <NavBar />
-      <div className='content'>
-        <h1>Welcome to My Photography Site</h1>
-        <p>Book a session, view my work, or contact me!</p>
+    <Router basename="/photography-service-site">
+      <div className='App'>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/book" element={<BookSession />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
