@@ -16,20 +16,20 @@ function Contact() {
           <Container>
             <Row>
               <Col xs>
-              <h3 className="txt-purple">Address</h3>
+              <h3 className="txt-purple-smaller">Address</h3>
               <p>364 Cooper Street, Ottawa, ON K2P 2P3</p>
               <br></br>
               </Col>
 
               <Col xs={{ order: 5 }}>
-              <h3 className="txt-purple">Contact</h3>
+              <h3 className="txt-purple-smaller">Contact</h3>
               <p>info@lumierestudio.com</p>
               <p>+1 613 123 1231</p>
               <br></br>
               </Col>
 
               <Col xs={{ order: 5 }}>
-              <h3 className="txt-purple">Hours</h3>
+              <h3 className="txt-purple-smaller">Hours</h3>
               <p> Monday to Friday: 9 AM - 6 PM</p>
               <br></br>
               </Col>
@@ -48,7 +48,6 @@ function Contact() {
               boxShadow: '0 4px 8px rgba(174, 80, 193, 0.2)',
             }}
             allowFullScreen=""
-            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="Lumiere Studio Location"
           ></iframe>

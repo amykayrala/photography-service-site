@@ -18,7 +18,7 @@ function Home() {
       <section id="photographers" className='photographers-section'>
         <h2>Our Photographers</h2>
         <p>Meet the talented professionals behind the lens.</p>
-        
+
             <Container>
             {/* Row 1 */}
             <Row className="mb-4">
@@ -28,6 +28,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Alex Kim</Card.Title>
                     <Card.Text>Outdoor & portrait photography</Card.Text>
+                    <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -37,6 +38,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Maria Lopez</Card.Title>
                     <Card.Text>Weddings & natural light</Card.Text>
+                    <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -46,6 +48,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>James Tran</Card.Title>
                     <Card.Text>Urban lifestyle & studio</Card.Text>
+                    <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -59,6 +62,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Sara Lee</Card.Title>
                     <Card.Text>Fashion & editorial shoots</Card.Text>
+                    <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -68,6 +72,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Omar Farah</Card.Title>
                     <Card.Text>Events & candid moments</Card.Text>
+                    <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -75,8 +80,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Emily Chen</Card.Title>
-                    <Card.Text>Studio portraits & branding</Card.Text>
+                        <Card.Title>Mia Chen</Card.Title>
+                        <Card.Text>Studio portraits & branding</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -88,8 +94,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Sara Lee</Card.Title>
-                    <Card.Text>Fashion & editorial shoots</Card.Text>
+                        <Card.Title>Ali Barad</Card.Title>
+                        <Card.Text>Graduation and Special Occasions</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -97,8 +104,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Omar Farah</Card.Title>
-                    <Card.Text>Events & candid moments</Card.Text>
+                        <Card.Title>Emily Burns</Card.Title>
+                        <Card.Text>Branding and Product Photography</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -106,8 +114,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Emily Chen</Card.Title>
-                    <Card.Text>Studio portraits & branding</Card.Text>
+                        <Card.Title>Mike Tyrell</Card.Title>
+                        <Card.Text>Content Creation & Themed Shoots</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -119,8 +128,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Sara Lee</Card.Title>
-                    <Card.Text>Fashion & editorial shoots</Card.Text>
+                        <Card.Title>Raphael Moc</Card.Title>
+                        <Card.Text>Sports & outdoors</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -128,8 +138,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Omar Farah</Card.Title>
-                    <Card.Text>Events & candid moments</Card.Text>
+                        <Card.Title>Serena Ling</Card.Title>
+                        <Card.Text>Music & Live venues</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -137,8 +148,9 @@ function Home() {
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/150" />
                     <Card.Body>
-                    <Card.Title>Emily Chen</Card.Title>
-                    <Card.Text>Studio portraits & branding</Card.Text>
+                        <Card.Title>Cat Burns</Card.Title>
+                        <Card.Text>Weddings & Couples</Card.Text>
+                        <Button variant="outline-dark">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
