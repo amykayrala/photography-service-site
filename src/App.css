@@ -10,10 +10,6 @@
   --beige: #FAF0E6;
 }
 
-.home-page {
-  color: white;
-}
-
 .home-title{
   background-image: url('./home-background.jpg');
   background-size: cover;
@@ -21,6 +17,7 @@
   height: 100vh;
   width: 100vw;
   padding: 20%;
+  color: white;
 }
 
 .home-text{
@@ -48,6 +45,7 @@
 .photographers-section{
   background-color: var(--purple1);
   padding: 110px;
+  color: white;
 }
 
 .about-us-content{
