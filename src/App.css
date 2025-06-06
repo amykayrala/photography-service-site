@@ -1,3 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap);
+
+:root {
+  --purple1: #bfadcc;
+  --pink1: #ffe1f5;
+  --pink2: #dfbbda;
+  --purple2: #896790;
+  --beige: #FAF0E6;
+}
+
+.NavBar {
+  background-color: var(--purple1);
+  color: white;
+
+}
+
+.NavBarBrand {
+  font-family: 'Julius Sans One', 'Arial';
+}
+
 .App {
   text-align: center;
 }
