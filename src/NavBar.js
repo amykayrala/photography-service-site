@@ -12,9 +12,9 @@ function NavBar() {
           <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Lumiere studio</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/">Home</Nav.Link>
+            <Nav.Link as={NavLink} to="/">Our Photographers</Nav.Link> {/* fix this link */}
             <Nav.Link as={NavLink} to="/aboutus">About Us</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
-            <Nav.Link as={NavLink} to="/">Our Photographers</Nav.Link> {/* fix this link */}
             <Button as={NavLink} to="/booksession" variant="outline-dark">Book Now</Button>
           </Nav>
         </Container>
