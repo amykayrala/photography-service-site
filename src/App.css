@@ -101,7 +101,21 @@
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 12px;
-  text-transform: uppercase; 
-  letter-spacing: 1px; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
+.text-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.middle{
+  background-color: var(--purple1);
+  color: white;
+  font-family: 'Snell Roundhand';
+  font-size: 2rem;
+  height: 50px;
+}
