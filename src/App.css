@@ -3,7 +3,7 @@
 
 
 :root {
-  --purple1: #bfadcc;
+  --purple1: #b0a0bc;
   --pink1: #ffe1f5;
   --pink2: #dfbbda;
   --purple2: #896790;
@@ -24,17 +24,25 @@
   text-align: left;
   font-size: 1.5vw;
   float: left;
-
 }
 
 .NavBar {
   background-color: var(--purple1);
-  color: white;
-
 }
 
 .NavBarBrand {
   font-family: 'Julius Sans One', 'Arial';
+  color: white !important;
+  font-weight: 600;
+}
+
+.NavBar .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.NavBar .nav-link:hover {
+  color: #443348 !important; 
 }
 
 .App {
@@ -46,6 +54,18 @@
   background-color: var(--purple1);
   padding: 110px;
   color: white;
+}
+
+.view-portfolio-btn{
+  background-color: #896790 !important;
+  color: white !important;
+  border-color: #080808 !important;
+}
+
+.view-portfolio-btn:hover{
+  background-color: var(--pink1) !important;
+  color: var(--purple2) !important;
+  border-color: var(--purple2) !important;
 }
 
 .about-us-content{
@@ -68,20 +88,20 @@
 }
 
 .txt-purple {
-  color: #896790; /* or any purple you want */
+  color: #896790; 
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 12px;
-  text-transform: uppercase; /* optional */
-  letter-spacing: 1px; /* optional */
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
 }
 
 .txt-purple-smaller {
-  color: #896790; /* or any purple you want */
+  color: #896790;
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 12px;
-  text-transform: uppercase; /* optional */
-  letter-spacing: 1px; /* optional */
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
 }
 

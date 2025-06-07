@@ -37,7 +37,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Alex Kim</Card.Title>
                     <Card.Text>Outdoor & portrait photography</Card.Text>
-                    <Button variant="outline-dark">View Portfolio</Button>
+                    <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -47,7 +47,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Maria Lopez</Card.Title>
                     <Card.Text>Weddings & natural light</Card.Text>
-                    <Button variant="outline-dark">View Portfolio</Button>
+                    <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -57,7 +57,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>James Tran</Card.Title>
                     <Card.Text>Urban lifestyle & studio</Card.Text>
-                    <Button variant="outline-dark">View Portfolio</Button>
+                    <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -71,7 +71,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Sara Lee</Card.Title>
                     <Card.Text>Fashion & editorial shoots</Card.Text>
-                    <Button variant="outline-dark">View Portfolio</Button>
+                    <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -81,7 +81,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Omar Farah</Card.Title>
                     <Card.Text>Events & candid moments</Card.Text>
-                    <Button variant="outline-dark">View Portfolio</Button>
+                    <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -91,7 +91,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Mia Chen</Card.Title>
                         <Card.Text>Studio portraits & branding</Card.Text>
-                        <Button variant="outline-dark">View Portfolio</Button>
+                        <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -105,7 +105,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Ali Barad</Card.Title>
                         <Card.Text>Graduation and Special Occasions</Card.Text>
-                        <Button variant="outline-dark">View Portfolio</Button>
+                        <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -115,7 +115,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Emily Burns</Card.Title>
                         <Card.Text>Branding and Product Photography</Card.Text>
-                        <Button variant="outline-dark">View Portfolio</Button>
+                        <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -125,7 +125,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Mike Tyrell</Card.Title>
                         <Card.Text>Content Creation & Themed Shoots</Card.Text>
-                        <Button variant="outline-dark">View Portfolio</Button>
+                        <Button className="view-portfolio-btn">View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
