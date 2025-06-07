@@ -18,7 +18,7 @@ function NavBar() {
             <Nav.Link as={HashLink} to="/#photographers">Our Photographers</Nav.Link>
             <Nav.Link as={NavLink} to="/aboutus">About Us</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
-            <Button as={NavLink} to="/booksession" variant="outline-dark">Book Now</Button>
+            <Button as={NavLink} to="/booksession" variant="outline-light">Book Now</Button>
           </Nav>
         </Container>
       </Navbar>
