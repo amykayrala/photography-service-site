@@ -170,5 +170,6 @@ return(
     </div>
 
     );
+}
 
 export default PickPhotographer;
