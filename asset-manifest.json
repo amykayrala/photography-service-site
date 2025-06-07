@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/photography-service-site/static/css/main.56694bf6.css",
-    "main.js": "/photography-service-site/static/js/main.0288a3e0.js",
+    "main.js": "/photography-service-site/static/js/main.625932d9.js",
+    "static/media/portfolio-img.png": "/photography-service-site/static/media/portfolio-img.bf21b93c7db17fedc9ae.png",
     "static/media/amy+raph.JPG": "/photography-service-site/static/media/amy+raph.a1404ad9a8428b9482a2.JPG",
     "static/media/photographer-image.png": "/photography-service-site/static/media/photographer-image.f9e8c10231b6f12f6bd3.png",
     "static/media/about3.jpg": "/photography-service-site/static/media/about3.65cf8117a61da802bb94.jpg",
@@ -11,6 +12,7 @@
     "static/media/about2.jpg": "/photography-service-site/static/media/about2.9679ed89be240ccaed3f.jpg",
     "static/media/photographer-image7.png": "/photography-service-site/static/media/photographer-image7.039a37a80a9ad63dbefb.png",
     "static/media/photographer-image6.png": "/photography-service-site/static/media/photographer-image6.14abaa93d14b72ee6056.png",
+    "static/media/book.jpg": "/photography-service-site/static/media/book.e1596d2e5a869aabb733.jpg",
     "static/media/home-background.jpg": "/photography-service-site/static/media/home-background.ef55d8b5e213a37ee91a.jpg",
     "static/media/photographer-image9.png": "/photography-service-site/static/media/photographer-image9.c1053724d46d9590fe39.png",
     "static/media/photographer-image4.png": "/photography-service-site/static/media/photographer-image4.c132f75adac846dc6e24.png",
@@ -18,10 +20,10 @@
     "static/media/photographer-image3.png": "/photography-service-site/static/media/photographer-image3.6d3800fa47c3583397b9.png",
     "index.html": "/photography-service-site/index.html",
     "main.56694bf6.css.map": "/photography-service-site/static/css/main.56694bf6.css.map",
-    "main.0288a3e0.js.map": "/photography-service-site/static/js/main.0288a3e0.js.map"
+    "main.625932d9.js.map": "/photography-service-site/static/js/main.625932d9.js.map"
   },
   "entrypoints": [
     "static/css/main.56694bf6.css",
-    "static/js/main.0288a3e0.js"
+    "static/js/main.625932d9.js"
   ]
 }
