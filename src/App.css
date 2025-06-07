@@ -3,7 +3,7 @@
 
 
 :root {
-  --purple1: #bfadcc;
+  --purple1: #b0a0bc;
   --pink1: #ffe1f5;
   --pink2: #dfbbda;
   --purple2: #896790;
@@ -24,17 +24,25 @@
   text-align: left;
   font-size: 1.5vw;
   float: left;
-
 }
 
 .NavBar {
   background-color: var(--purple1);
-  color: white;
-
 }
 
 .NavBarBrand {
   font-family: 'Julius Sans One', 'Arial';
+  color: white !important;
+  font-weight: 600;
+}
+
+.NavBar .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.NavBar .nav-link:hover {
+  color: #443348 !important; 
 }
 
 .App {
@@ -48,21 +56,82 @@
   color: white;
 }
 
-.about-us{
-  background-color: var(--beige);
-}
-.about-us-content{
-  padding: 100px;
-  margin-top: 130px;
-  border-radius: 10px;
+.view-portfolio-btn{
+  background-color: #896790 !important ;
+  color: white !important;
+  border-color: #080808 !important;
 }
 
+.view-portfolio-btn:hover{
+  background-color: var(--pink1) !important;
+  color: var(--purple2) !important;
+  border-color: var(--purple2) !important;
+}
+
+.aboutcompany{
+  background-color: var(--beige);
+
+}
+
+.aboutcreators{
+  background-color: var(--pink1);
+
+}
+.about-us-content{
+  padding: 5% 5% 5% 10%;
+  align-content: left;
+  text-align: left;
+}
+
+.aboutpics{
+  width: 90%;
+  margin: 5% 0 5% 0;
+  border-style: solid;
+  border-color: var(--pink1);
+  border-width: 5px;
+}
+
+.about-creator-content{
+  padding: 0 10% 0 5%;
+  align-content: left;
+  text-align: left;
+}
+
+
 .about-us-pic{
-  padding: 100px;
-  margin-top: 130px;
-  border-radius: 10px;
+  padding: 5%;
+  border-radius: 50%;
+  width: 60%;
+  
 }
 
 .contact-page{
   background-color: var(--beige);
+  height: 100vh;
 }
+
+.txt-purple {
+  color: #896790; 
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+.txt-purple-smaller {
+  color: #896790;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase; /* optional */
+  letter-spacing: 1px; /* optional */
+}
+
+.text-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
