@@ -63,6 +63,9 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Alex Kim</Card.Title>
+                    <Card.Text>
+                        200$/h
+                    </Card.Text>
                     <Button className="view-portfolio-btn me-2" onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
@@ -72,6 +75,9 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Maria Lopez</Card.Title>
+                    <Card.Text>
+                        300$/h
+                    </Card.Text>
                     <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
@@ -81,6 +87,9 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>James Tran</Card.Title>
+                    <Card.Text>
+                        250$/h
+                    </Card.Text>
                     <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
@@ -94,6 +103,9 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Sara Lee</Card.Title>
+                    <Card.Text>
+                        100$/h
+                    </Card.Text>
                     <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
@@ -103,6 +115,9 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Omar Farah</Card.Title>
+                    <Card.Text>
+                        150$/h
+                    </Card.Text>
                     <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
@@ -112,6 +127,9 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Mia Chen</Card.Title>
+                        <Card.Text>
+                            350$/h
+                        </Card.Text>
                         <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
@@ -125,6 +143,9 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Ali Barad</Card.Title>
+                        <Card.Text>
+                            225$/h
+                        </Card.Text>
                         <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
@@ -134,6 +155,9 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Emily Burns</Card.Title>
+                        <Card.Text>
+                            175$/h
+                        </Card.Text>
                         <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
@@ -143,6 +167,9 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Mike Tyrell</Card.Title>
+                        <Card.Text>
+                            325$/h
+                        </Card.Text>
                         <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
