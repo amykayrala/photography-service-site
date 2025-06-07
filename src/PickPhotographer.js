@@ -1,4 +1,5 @@
 import ProgressBar from 'react-bootstrap/ProgressBar';
+
 import './App.css';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
@@ -169,6 +170,5 @@ return(
     </div>
 
     );
-}
 
 export default PickPhotographer;

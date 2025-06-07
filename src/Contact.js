@@ -1,5 +1,6 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './App.css';
+import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaClock } from 'react-icons/fa';
 
 function Contact() {
   return (
@@ -16,22 +17,31 @@ function Contact() {
           <Container>
             <Row>
               <Col xs>
-              <h3 className="txt-purple-smaller">Address</h3>
-              <p>364 Cooper Street, Ottawa, ON K2P 2P3</p>
-              <br></br>
+                <h3 className="txt-purple-smaller">
+                  <FaMapMarkerAlt style={{ marginRight: '8px' }} />
+                  Address
+                </h3>
+                <p>364 Cooper Street, Ottawa, ON K2P 2P3</p>
+                <br />
               </Col>
 
               <Col xs={{ order: 5 }}>
-              <h3 className="txt-purple-smaller">Contact</h3>
-              <p>info@lumierestudio.com</p>
-              <p>+1 613 123 1231</p>
-              <br></br>
+                <h3 className="txt-purple-smaller">
+                  <FaEnvelope style={{ marginRight: '8px' }} />
+                  Contact
+                </h3>
+                <p>info@lumierestudio.com</p>
+                <p><FaPhone style={{ marginRight: '8px' }} /> +1 613 123 1231</p>
+                <br />
               </Col>
 
               <Col xs={{ order: 5 }}>
-              <h3 className="txt-purple-smaller">Hours</h3>
-              <p> Monday to Friday: 9 AM - 6 PM</p>
-              <br></br>
+                <h3 className="txt-purple-smaller">
+                  <FaClock style={{ marginRight: '8px' }} />
+                  Hours
+                </h3>
+                <p>Monday to Friday: 9 AM - 6 PM</p>
+                <br />
               </Col>
             </Row>
           </Container>
