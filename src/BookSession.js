@@ -34,7 +34,7 @@ function BookSession() {
 
     return (
         <div className='book-page'>
-            <ProgressBar animated now={50} variant="success" label={' 1. Date and Time'} />
+            <ProgressBar className='custom-progress' animated now={50} label={' 1. Date and Time'} />
             <h1 style={{paddingTop: "8%"}} className='txt-purple'>Pick a date, time and fill your info</h1>
             <Row  className="d-flex align-items-center g-0" style={{padding:"3% 0 5% 0"}}>
                 <Col md className='text-center text-col'>
