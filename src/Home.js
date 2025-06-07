@@ -12,6 +12,9 @@ import photographerImg7 from './photographer-image7.png';
 import photographerImg8 from './photographer-image8.png';
 import photographerImg9 from './photographer-image9.png';
 
+import Modal from 'react-bootstrap/Modal';
+import { useState } from 'react';
+import portfolioImg from './portfolio-img.png'; 
 
 function Home() {
 
