@@ -14,6 +14,12 @@ import photographerImg9 from './photographer-image9.png';
 
 
 function Home() {
+
+    {/* portfolio modal */}
+      const [showModal, setShowModal] = useState(false);
+      const handleModalOpen = () => setShowModal(true);
+      const handleModalClose = () => setShowModal(false);
+    
   return (
     <div className='home-page'>
       <section className='home-title'>
@@ -37,7 +43,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Alex Kim</Card.Title>
                     <Card.Text>Outdoor & portrait photography</Card.Text>
-                    <Button className="view-portfolio-btn">View Portfolio</Button>
+                    <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -47,7 +53,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Maria Lopez</Card.Title>
                     <Card.Text>Weddings & natural light</Card.Text>
-                    <Button className="view-portfolio-btn">View Portfolio</Button>
+                    <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -57,7 +63,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>James Tran</Card.Title>
                     <Card.Text>Urban lifestyle & studio</Card.Text>
-                    <Button className="view-portfolio-btn">View Portfolio</Button>
+                    <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -71,7 +77,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Sara Lee</Card.Title>
                     <Card.Text>Fashion & editorial shoots</Card.Text>
-                    <Button className="view-portfolio-btn">View Portfolio</Button>
+                    <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -81,7 +87,7 @@ function Home() {
                     <Card.Body>
                     <Card.Title>Omar Farah</Card.Title>
                     <Card.Text>Events & candid moments</Card.Text>
-                    <Button className="view-portfolio-btn">View Portfolio</Button>
+                    <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -91,7 +97,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Mia Chen</Card.Title>
                         <Card.Text>Studio portraits & branding</Card.Text>
-                        <Button className="view-portfolio-btn">View Portfolio</Button>
+                        <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -105,7 +111,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Ali Barad</Card.Title>
                         <Card.Text>Graduation and Special Occasions</Card.Text>
-                        <Button className="view-portfolio-btn">View Portfolio</Button>
+                        <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -115,7 +121,7 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Emily Burns</Card.Title>
                         <Card.Text>Branding and Product Photography</Card.Text>
-                        <Button className="view-portfolio-btn">View Portfolio</Button>
+                        <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -125,13 +131,28 @@ function Home() {
                     <Card.Body>
                         <Card.Title>Mike Tyrell</Card.Title>
                         <Card.Text>Content Creation & Themed Shoots</Card.Text>
-                        <Button className="view-portfolio-btn">View Portfolio</Button>
+                        <Button className="view-portfolio-btn"onClick={handleModalOpen}>View Portfolio</Button>
                     </Card.Body>
                 </Card>
                 </Col>
             </Row>
         </Container>
       </section>
+
+    <>
+    <Modal show={showModal} onHide={handleModalClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Portfolio</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <img 
+            src={portfolioImg} 
+            alt="Thank you" 
+            style={{ width: '100%', borderRadius: '8px', marginBottom: '1rem' }} />
+        </Modal.Body>
+      </Modal>
+    </>
+
     </div>
   );
 }

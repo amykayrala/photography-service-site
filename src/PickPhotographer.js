@@ -11,14 +11,19 @@ import formImg from './home-background.jpg';
 import PickButton from './PickButton';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
+import portfolioImg from './portfolio-img.png'; 
 
 function PickPhotographer() {
 
+{/* thank u msg */}
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+{/* portfolio modal */}
+  const [showModal, setShowModal] = useState(false);
+  const handleModalOpen = () => setShowModal(true);
+  const handleModalClose = () => setShowModal(false);
 
 return(
     <div className='contact-page'>
@@ -58,7 +63,7 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Alex Kim</Card.Title>
-                    <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                    <Button className="view-portfolio-btn me-2" onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
                 </Card>
@@ -67,7 +72,7 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Maria Lopez</Card.Title>
-                    <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                    <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
                 </Card>
@@ -76,7 +81,7 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>James Tran</Card.Title>
-                    <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                    <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
                 </Card>
@@ -89,7 +94,7 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Sara Lee</Card.Title>
-                    <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                    <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
                 </Card>
@@ -98,7 +103,7 @@ return(
                 <Card>
                     <Card.Body>
                     <Card.Title>Omar Farah</Card.Title>
-                    <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                    <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                     <PickButton />
                     </Card.Body>
                 </Card>
@@ -107,7 +112,7 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Mia Chen</Card.Title>
-                        <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                        <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
                 </Card>
@@ -120,7 +125,7 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Ali Barad</Card.Title>
-                        <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                        <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
                 </Card>
@@ -129,7 +134,7 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Emily Burns</Card.Title>
-                        <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                        <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
                 </Card>
@@ -138,7 +143,7 @@ return(
                 <Card>
                     <Card.Body>
                         <Card.Title>Mike Tyrell</Card.Title>
-                        <Button className="view-portfolio-btn me-2">View Portfolio</Button>
+                        <Button className="view-portfolio-btn me-2"onClick={handleModalOpen}>View Portfolio</Button>
                         <PickButton />
                     </Card.Body>
                 </Card>
@@ -166,6 +171,21 @@ return(
         </Modal.Footer>
       </Modal>
     </>
+
+    <>
+    <Modal show={showModal} onHide={handleModalClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Portfolio</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <img 
+            src={portfolioImg} 
+            alt="Thank you" 
+            style={{ width: '100%', borderRadius: '8px', marginBottom: '1rem' }} />
+        </Modal.Body>
+      </Modal>
+    </>
+
         </section>
     </div>
 
