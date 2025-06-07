@@ -107,7 +107,6 @@
 
 .contact-page{
   background-color: var(--beige);
-  height: 100vh;
 }
 
 .txt-purple {
@@ -124,15 +123,15 @@
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 12px;
-  text-transform: uppercase; /* optional */
-  letter-spacing: 1px; /* optional */
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .text-col{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .middle{
@@ -142,3 +141,10 @@
   font-size: 2rem;
   height: 50px;
 }
+
+
+.custom-progress .progress-bar {
+  background-color: #896790 !important;
+  font-weight: 600;
+}
+
