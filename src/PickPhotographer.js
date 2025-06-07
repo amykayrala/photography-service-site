@@ -6,8 +6,18 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import formImg from './home-background.jpg';
+import PickButton from './PickButton';
+import Modal from 'react-bootstrap/Modal';
+import { useState } from 'react';
 
 function PickPhotographer() {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
 
 return(
     <div className='contact-page'>
@@ -15,9 +25,9 @@ return(
         <br></br>
         <h1 className="txt-purple"><strong>Pick your Service and Photographer</strong></h1>
 
-        <section className=''>
+        <section>
             <Container className="my-4">
-            <Row className="justify-content-center bg-light p-4">
+            <Row className="justify-content-center">
                 <Col md={6}>
                     <Form.Select>
                         <option>Select a Service</option>
@@ -32,10 +42,14 @@ return(
             </Row>
             </Container>
 
-            
+            <img src={formImg} className="w-75 py-3" 
+              style={{ height: '300px', objectFit: 'cover' }} />
+
             <h2>Pick your Photographer</h2>
             <p>The perfect photographer for your occasion is just a click away.</p>
+        </section>
 
+        <section>
             <Container className="justify-content-center bg-light p-4">
             {/* Row 1 */}
             <Row className="mb-4">
@@ -44,7 +58,7 @@ return(
                     <Card.Body>
                     <Card.Title>Alex Kim</Card.Title>
                     <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                    <Button className="view-portfolio-btn">Pick Me!</Button>
+                    <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -53,7 +67,7 @@ return(
                     <Card.Body>
                     <Card.Title>Maria Lopez</Card.Title>
                     <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                    <Button className="view-portfolio-btn">Pick Me!</Button>
+                    <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -62,7 +76,7 @@ return(
                     <Card.Body>
                     <Card.Title>James Tran</Card.Title>
                     <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                    <Button className="view-portfolio-btn">Pick Me!</Button>
+                    <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -75,7 +89,7 @@ return(
                     <Card.Body>
                     <Card.Title>Sara Lee</Card.Title>
                     <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                    <Button className="view-portfolio-btn">Pick Me!</Button>
+                    <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -84,7 +98,7 @@ return(
                     <Card.Body>
                     <Card.Title>Omar Farah</Card.Title>
                     <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                    <Button className="view-portfolio-btn">Pick Me!</Button>
+                    <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -93,7 +107,7 @@ return(
                     <Card.Body>
                         <Card.Title>Mia Chen</Card.Title>
                         <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                        <Button className="view-portfolio-btn">Pick Me!</Button>
+                        <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -106,7 +120,7 @@ return(
                     <Card.Body>
                         <Card.Title>Ali Barad</Card.Title>
                         <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                        <Button className="view-portfolio-btn">Pick Me!</Button>
+                        <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -115,7 +129,7 @@ return(
                     <Card.Body>
                         <Card.Title>Emily Burns</Card.Title>
                         <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                        <Button className="view-portfolio-btn">Pick Me!</Button>
+                        <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
@@ -124,13 +138,33 @@ return(
                     <Card.Body>
                         <Card.Title>Mike Tyrell</Card.Title>
                         <Button className="view-portfolio-btn me-2">View Portfolio</Button>
-                        <Button className="view-portfolio-btn">Pick Me!</Button>
+                        <PickButton />
                     </Card.Body>
                 </Card>
                 </Col>
             </Row>
         </Container>
+    
+    <>
+      <Button className="view-portfolio-btn my-4" onClick={handleShow}>
+        Submit
+      </Button>
 
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Thank you for booking with Lumiere Studio!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>A confirmation email has been sent to your inbox. We're excited to work with you and hope you have a pleasant experience!</Modal.Body>
+        <Modal.Footer>
+          <Button className="view-portfolio-btn" onClick={handleClose}>
+            View Booking Details
+          </Button>
+          <Button className="view-portfolio-btn" onClick={() => window.location.href = '/photography-service-site'}>
+            Go to Home
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
         </section>
     </div>
 

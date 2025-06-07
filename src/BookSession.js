@@ -30,7 +30,7 @@ function BookSession() {
                 <option value="3">Three</option>
             </Form.Select>
 
-            <Button as={Link} to='/booksession/pickphotographer' variant="outline-dark">Next</Button>
+            <Button as={Link} to='/pickphotographer' variant="outline-dark">Next</Button>
         </div>
     );
 }
