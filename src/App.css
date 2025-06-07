@@ -48,18 +48,42 @@
   color: white;
 }
 
-.about-us-content{
-  padding-left: 50px;
-  align-content: center;
-  margin-top: 130px;
-  border-radius: 10px;
+.aboutcompany{
+  background-color: var(--beige);
+
 }
 
+.aboutcreators{
+  background-color: var(--pink1);
+
+}
+
+.about-us-content{
+  padding: 5% 5% 5% 10%;
+  align-content: left;
+  text-align: left;
+}
+
+.aboutpics{
+  width: 90%;
+  margin: 5% 0 5% 0;
+  border-style: solid;
+  border-color: var(--pink1);
+  border-width: 5px;
+}
+
+.about-creator-content{
+  padding: 0 10% 0 5%;
+  align-content: left;
+  text-align: left;
+}
+
+
 .about-us-pic{
-  padding: 100px;
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
+  padding: 5%;
+  border-radius: 50%;
+  width: 60%;
+  
 }
 
 .contact-page{
@@ -85,3 +109,9 @@
   letter-spacing: 1px; /* optional */
 }
 
+.text-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
