@@ -6,6 +6,7 @@ import couple from './about3.jpg';
 import { Button, Row, Col } from 'react-bootstrap';
 import './App.css';
 import {HashLink} from 'react-router-hash-link';
+import Image from 'react-bootstrap/Image';
 
 function AboutUs() {
   return (
@@ -40,12 +41,36 @@ function AboutUs() {
             </Col>
           </Row>
 
+        </section >
+
+        <section className='middle text-center align-items-center'>
+            <Row className='g-0'>
+              <Col md  className="d-flex justify-content-center align-items-center">
+                <p>
+                  passion
+                </p>
+              </Col>
+              <Col md  className="d-flex justify-content-center align-items-center">
+                <p>
+                  unique
+                </p>
+
+                  
+              </Col>
+              <Col md  className="d-flex justify-content-center align-items-center">
+                <p>
+                  details
+                </p>
+                  
+              </Col >
+            </Row>
+
         </section>
 
         <section className='aboutcreators'>
           <Row className='g-0'>
             <Col md>
-                <img src={ceosImg} className="about-us-pic" alt="Pic of us" />
+                <Image src={ceosImg} className="about-us-pic" alt="Pic of us" />
             </Col>
             <Col md className='text-col'>
                 <div className='about-creator-content'>
