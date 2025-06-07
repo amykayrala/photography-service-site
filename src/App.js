@@ -5,6 +5,7 @@ import Home from './Home';
 import AboutUs from './AboutUs';
 import BookSession from './BookSession';
 import Contact from './Contact';
+import PickPhotographer from './PickPhotographer';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/booksession" element={<BookSession />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+          <Route path="/booksession/pickphotographer" element={<PickPhotographer />} /> {/* this w makes PickPhotographer a sub-route inside /booksession */}
+        </Routes> 
       </div>
     </Router>
   );
