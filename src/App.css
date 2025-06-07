@@ -109,7 +109,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .middle{
@@ -122,4 +121,5 @@
 
 .custom-progress .progress-bar {
   background-color: #896790 !important;
+  font-weight: 600;
 }
