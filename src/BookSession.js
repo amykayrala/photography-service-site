@@ -34,12 +34,12 @@ function BookSession() {
     };
 
     return (
-        <div className='book-page'>
+        <div className='book-page text-center'>
             <ProgressBar className='custom-progress' animated now={50} label={' 1. Date and Time'} />
-            <h1 style={{paddingTop: "8%"}} className='txt-purple'>Pick a date, time and fill your info</h1>
+            <h1 style={{paddingTop: "5%"}} className='txt-purple'><strong>Pick a date, time and fill your info</strong></h1>
             <img src={bookImg} className="w-75 py-3" 
               style={{ height: '300px', objectFit: 'cover' }} />
-            <Row  className="d-flex align-items-center g-0" style={{padding:"3% 0 5% 0"}}>
+            <Row  className="d-flex align-items-center g-0" style={{padding:"3% 0 5% 0", width:"80%", margin: "auto"}}>
                 <Col md className='text-center text-col'>
                     <div className='calendar'>
                         <h5>

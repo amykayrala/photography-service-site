@@ -29,7 +29,7 @@ return(
     <div className='contact-page'>
         <ProgressBar animated now={90} className="custom-progress" label={'2. Service Type and Photographer'} />
         <br></br>
-        <h1 className="txt-purple"><strong>Pick your Service and Photographer</strong></h1>
+        <h1 style={{ marginTop: '5%'}} className="txt-purple"><strong>Pick your Service and Photographer</strong></h1>
 
         <section>
             <Container className="my-4">
@@ -51,7 +51,7 @@ return(
             <img src={formImg} className="w-75 py-3" 
               style={{ height: '300px', objectFit: 'cover' }} />
 
-            <h2>Pick your Photographer</h2>
+            <h2 style={{ marginTop: '2%'}} >Pick your Photographer</h2>
             <p>The perfect photographer for your occasion is just a click away.</p>
         </section>
 

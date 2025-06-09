@@ -5,10 +5,8 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaClock } from 'react-icons/fa';
 function Contact() {
   return (
       <div className="contact-page">
-         
-        <br></br>
-        <br></br>
-        <h1 className="txt-purple"><strong>Get in Touch</strong></h1>
+      
+        <h1 style={{ paddingTop: '5%'}} className="txt-purple"><strong>Get in Touch</strong></h1>
         <p>We're a few clicks away! Don't hesitate to reach out for any inquiries.</p>
         <br></br>
         <br></br>
