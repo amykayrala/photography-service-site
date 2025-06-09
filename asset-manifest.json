@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/photography-service-site/static/css/main.56694bf6.css",
-    "main.js": "/photography-service-site/static/js/main.f68f8cdb.js",
+    "main.css": "/photography-service-site/static/css/main.d57bcc75.css",
+    "main.js": "/photography-service-site/static/js/main.af7bc90a.js",
     "static/media/portfolio-img.png": "/photography-service-site/static/media/portfolio-img.bf21b93c7db17fedc9ae.png",
     "static/media/amy+raph.JPG": "/photography-service-site/static/media/amy+raph.a1404ad9a8428b9482a2.JPG",
     "static/media/photographer-image.png": "/photography-service-site/static/media/photographer-image.f9e8c10231b6f12f6bd3.png",
@@ -19,11 +19,11 @@
     "static/media/photographer-image2.png": "/photography-service-site/static/media/photographer-image2.ac0cbb5324f0343a1f11.png",
     "static/media/photographer-image3.png": "/photography-service-site/static/media/photographer-image3.6d3800fa47c3583397b9.png",
     "index.html": "/photography-service-site/index.html",
-    "main.56694bf6.css.map": "/photography-service-site/static/css/main.56694bf6.css.map",
-    "main.f68f8cdb.js.map": "/photography-service-site/static/js/main.f68f8cdb.js.map"
+    "main.d57bcc75.css.map": "/photography-service-site/static/css/main.d57bcc75.css.map",
+    "main.af7bc90a.js.map": "/photography-service-site/static/js/main.af7bc90a.js.map"
   },
   "entrypoints": [
-    "static/css/main.56694bf6.css",
-    "static/js/main.f68f8cdb.js"
+    "static/css/main.d57bcc75.css",
+    "static/js/main.af7bc90a.js"
   ]
 }
